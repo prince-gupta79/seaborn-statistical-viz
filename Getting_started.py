@@ -1,0 +1,19 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import  seaborn as sns
+
+# Aplly the default theme
+sns.set_theme()
+
+# Load aan example dataset
+tips = sns.load_dataset("tips")
+
+# Create a visualization
+sns.relplot(
+    data = tips,
+    x = "total_bill", y = "tip", col = "time",
+    hue = "smoker", style = "smoker", size = "size"
+)
+
+plt.show()
