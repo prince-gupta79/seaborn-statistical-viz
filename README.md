@@ -3,26 +3,26 @@ seaborn-statistical-viz :
 Learning seaborn for statistical data visualization — this folder covers everything from basic relational plots to advanced multivariate analysis with PairGrids and KDE contours.
 Seaborn sits on top of matplotlib but makes statistical visualization significantly easier and more powerful. This is where visualization stopped feeling like a chore and started feeling useful.
 
-What's covered :
+## What's covered
 
-Relational plots — relplot/ with hue, style, size, faceting
-Distribution plots — displot/ with KDE, rug plots, histogram
-Categorical plots — catplot/ with swarm plots
-Statistical estimation — confidence intervals on line plots
-Multivariate analysis — jointplot/, pairplot/, PairGrid
-FacetGrid for multi-panel figures
-Working with real built-in datasets — tips, penguins, fmri, dots
+- Relational plots — `relplot` with hue, style, size, faceting
+- Distribution plots — `displot` with KDE, rug plots, histogram
+- Categorical plots — `catplot` with swarm plots
+- Statistical estimation — confidence intervals on line plots
+- Multivariate analysis — `jointplot`, `pairplot`, `PairGrid`
+- FacetGrid for multi-panel figures
+- Working with real built-in datasets — tips, penguins, fmri, dots
 
+## Files
 
-Files
-
-File                                   What it does
-Getting_started.py           First seaborn plot — relplot with multiple visual dimensions
-statistical_etm.py           fMRI brain signal data — line plots with confidence intervals by region
-dots.py                      Neural firing rate data — line plot with coherence levels and style
-distributional.py            Distribution plots with KDE, rug plots, faceted by time and smoker
-functions.py                 FacetGrid setup, displot vs KDE comparison
-Multivariate.py              P-airGrid with KDE contours, scatter overlay, histogram diagonal
+| File | What it does |
+|---|---|
+| `Getting_started.py` | First seaborn plot — relplot with multiple visual dimensions |
+| `statistical_etm.py` | fMRI brain signal data — line plots with confidence intervals by region |
+| `dots.py` | Neural firing rate data — line plot with coherence levels and style |
+| `distributional.py` | Distribution plots with KDE, rug plots, faceted by time and smoker |
+| `functions.py` | FacetGrid setup, displot vs KDE comparison |
+| `Multivariate.py` | PairGrid with KDE co
 
 The interesting part ;
 The datasets seaborn uses by default are more interesting than they look:
